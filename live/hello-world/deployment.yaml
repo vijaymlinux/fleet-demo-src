@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       imagePullSecrets:
-      - name: harbor-demo
+      - name: susecon-harbor-demo-key
       containers:
         - name: hello-world
           image: 192.168.124.212/susecon/rancher-demo:susecon

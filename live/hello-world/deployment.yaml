@@ -17,7 +17,7 @@ spec:
       - name: susecon-harbor-demo-key
       containers:
         - name: hello-world
-          image: 192.168.124.212/susecon/rancher-demo:susecon
+          image: bashofmann/rancher-demo:1.0.0
           imagePullPolicy: Always
           ports:
           - containerPort: 8080

@@ -13,8 +13,6 @@ spec:
       labels:
         app: hello-world
     spec:
-      imagePullSecrets:
-      - name: susecon-harbor-demo-key
       containers:
         - name: hello-world
           image: bashofmann/rancher-demo:1.0.0

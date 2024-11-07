@@ -4,7 +4,7 @@ metadata:
   name: hello-world
   namespace: default
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels:
       app: hello-world
@@ -23,7 +23,7 @@ spec:
             protocol: TCP
           env:
             - name: COW_COLOR
-              value: Green
+              value: Red
           readinessProbe:
             httpGet:
               port: web
